@@ -2,7 +2,8 @@
 #include <math.h>
 
 double function(double x) {
-  return pow(x, 5) + pow(x, 3) + 3;
+  double e = M_E;
+  return log(x-1) - cos(x-1);
 }
 
 int main() {
